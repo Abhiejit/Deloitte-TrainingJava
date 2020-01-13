@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Test HTML</title>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+<script>
+
+	
+	
+	function show()
+	{
+		var x=document.getElementById("abc").innerHTML=mytext.value;	
+		return x;
+		}
+	
+	</script>
+</head>
+
+<body onload="take()">
+  
+   
+   
+   <br>Enter text: 
+     <input type="text" name="mytext" placeholder="text" />
+      <p id="abc"> </p>
+      <input type="button" id="myTab" value="Click" onclick="show()"/> 
+    
+
+</body>
+</html>
